@@ -16,10 +16,12 @@
 # API
 ## get /line_info
 <p>Return all line_info</p>
+
 ## put /line_info
 <p>To update line_info</p>
 <p>valid: 200</p>
 <p>invalid: 400</p>
+
 ### example put body
 ```{"nick_name": "mozix","channel_id": "656452143","channel_secret": "05425dffa740b7c5d81f89fc5993e074"}```
   this token is only for example, this will not work
